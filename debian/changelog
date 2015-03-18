@@ -1,3 +1,9 @@
+attachsql (0.2.0-2~precise) precise; urgency=low
+
+  * Fix deps for package building
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Wed, 18 Mar 2015 14:06:11 +0000
+
 attachsql (0.2.0-1~precise) precise; urgency=low
 
   * Initial alpha release
