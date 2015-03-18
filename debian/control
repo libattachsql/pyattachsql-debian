@@ -1,0 +1,12 @@
+Source: attachsql
+Maintainer: Andrew Hutchings <andrew@linuxjedi.co.uk>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all-dev (>= 2.6.6-3), debhelper (>= 7), libattachsql2
+Standards-Version: 3.9.1
+
+Package: python-attachsql
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: A Python wrapper for the libAttachSQL connector for MySQL servers
+
